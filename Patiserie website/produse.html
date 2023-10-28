@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style2.css">
+
+   <!-- custom js file link  -->
+   <script src="script.js" defer></script>
+
+</head>
+<body>
+   
+<div class="container">
+
+   <h3 class="title"> Produse de patiserie </h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="imagini/BatonCuCascaval.jpg" alt="">
+         <h3>Baton cu cascaval</h3>
+         <div class="price">3,5 Ron</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="imagini/Covrigi.jpg" alt="">
+         <h3>Covrig cu susan</h3>
+         <div class="price">2 LEI</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="imagini/merdenelCuBranza.jpg" alt="">
+         <h3>Merdenea cu branza</h3>
+         <div class="price">2 LEI</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="imagini/covrigiCuNutella.jpg" alt="">
+         <h3>covrigi cu Nutella </h3>
+         <div class="price">4 Lei</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="imagini/CovrigCuCascaval.jpg" alt="">
+         <h3>Covrig cu cascaval</h3>
+         <div class="price">3 Lei</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="imagini/PateuCuBranza.jpg" alt="">
+         <h3>Pateu cu branza dulce si stafide</h3>
+         <div class="price">7 LEI</div>
+      </div>
+
+
+      <div class="product" data-name="p-7">
+         <img src="imagini/PateuCuBranzaSarata.jpg" alt="">
+         <h3>Pateu cu branza sarata de vaca</h3>
+         <div class="price"> 6 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-8">
+         <img src="imagini/StrudelCuBranzaDulce.jpg" alt="">
+         <h3>Strudel cu branza dulce</h3>
+         <div class="price">6 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-9">
+         <img src="imagini/StrudelCuDovleac.jpg" alt="">
+         <h3>Strudel cu dovleac</h3>
+         <div class="price">6 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-10">
+         <img src="imagini/StrudeCuMere.jpg" alt="">
+         <h3>Strudel cu mere</h3>
+         <div class="price">6 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-11">
+         <img src="imagini/StrudelCuIaurt.jpg" alt="">
+         <h3>Strudel cu iaurt</h3>
+         <div class="price">5 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-12">
+         <img src="imagini/prazituraCuvisine.jpg" alt="">
+         <h3>Prajitura cu visine</h3>
+         <div class="price">6 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-13">
+         <img src="imagini/croissantCuAlune.jpg" alt="">
+         <h3>Croissant cu cacao si alune</h3>
+         <div class="price">3,5 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-14">
+         <img src="imagini/CriossantCuUnt.jpg" alt="">
+         <h3>Croissant cu unt</h3>
+         <div class="price">2 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-15">
+         <img src="imagini/melcCuVanilie.jpg" alt="">
+         <h3>Melc cu crema de vanilie si stafide</h3>
+         <div class="price">5,5 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-16">
+         <img src="imagini/CrenvustiFoiteaj.jpg" alt="">
+         <h3>Crenvusti in foietaj</h3>
+         <div class="price">4,5 Ron</div>
+      </div>
+
+
+      <div class="product" data-name="p-17">
+         <img src="imagini/Dobrogeana.jpg" alt="">
+         <h3>Dobrogeana cu branza dulce si sarata</h3>
+         <div class="price">7 Ron </div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="imagini/BatonCuCascaval.jpeg" alt="">
+      <h3>Baton cu cascaval</h3>
+      <div class="stars">
+         <span>Gramaj: 150g/buc</span>
+      </div>
+      <p>Ingrediente: Aluat faina alba de grau 100g, apa, sare, margarina, cascaval, lapte.</p>
+      <div class="price">Alergeni: Gluten, lapte</div>
+      <div class="buttons">
+         <a href="" class="buy">3,5 Ron</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="imagini/Covrigi.jpg" alt="">
+      <h3>Covrig cu susan, susan si semite de floarea soarelui</h3>
+      <div class="stars">
+         <span>Gramaj: 80g/buc</span>
+      </div>
+      <p>Ingrediente: aluat 100g, faina, grau, apa, margarina, sare , (mac/susan/seminte de floarea soarelui)</p>
+      <div class="price"> Alergeni: gluten, seminte</div>
+      <div class="buttons">
+         <a href="" class="buy">2 Ron</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="imagini/merdenelCuBranza.jpg" alt="">
+      <h3>Merdenea cu branza</h3>
+      <div class="stars">
+         <span>Gramaj: 250g/buc</span>
+      </div>
+      <p>Ingrediente: foaie de placinta romaneasca 50g, umplutura cu branza sarata si ou 40g.</p>
+      <div class="price">Alergeni: gluten, lactoza, ou.</div>
+      <div class="buttons">
+         <a href="" class="buy">6 Ron</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="imagini/covrigiCuNutella.jpg" alt="">
+      <h3>Covrigi cu nutella</h3>
+      <div class="stars">
+         <span>Gramaj: 105g/buc</span>
+      </div>
+      <p>Ingrediente: Aluat faina alba de grau 100g, zahar, margarina, lapte, Nutella, arahide</p>
+      <div class="price">Alergeni: arahide, lapte, gluten</div>
+      <div class="buttons">
+         <a href="" class="buy">4 Ron</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="imagini/CovrigCuCascaval.jpg" alt="">
+      <h3>Covrig cu cascaval</h3>
+      <div class="stars">
+         <span>Gramaj: 90g/buc</span>
+      </div>
+      <p>Ingrediente: Aluat faina de grau 100g, apa, sare, margarina, cascaval, lapte.</p>
+      <div class="price">Alergeni: Gluten, lapte</div>
+      <div class="buttons">
+         <a href="" class="buy">3,5 Ron</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="imagini/PateuCuBranza.jpg" alt="">
+      <h3>Pateu cu branza dulce si stafide</h3>
+      <div class="stars">
+         <span>Gramaj: 120g/buc</span>
+      </div>
+      <p>Ingrediente: aluat de foietaj 70g,umplutura cu branza dulce si stafide 40g, decorat cu sirop cu zahar si miere. </p>
+      <div class="price">Alergeni: glute, lactoza, ou, dioxid de sulf</div>
+      <div class="buttons">
+         <a href="" class="buy">7 Ron</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="imagini/PateuCuBranzaSarata.jpg" alt="">
+      <h3>Pateu cu branza sarata de vaca</h3>
+      <div class="stars">
+         <span>Gramaj: 90g/buc</span>
+      </div>
+      <p>Ingrediente: aluat de foietaj 55g, umplutura cu branza sarata si ou 25g.</p>
+      <div class="price">Alergeni: glute, lactoza , ou</div>
+      <div class="buttons">
+         <a href="" class="buy">6 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="imagini/StrudelCuBranzaDulce.jpg" alt="">
+      <h3>Strudel cu branza dulce</h3>
+      <div class="stars">
+         <span>Gramaj: 100g/buc</span>
+      </div>
+      <p>Ingrediente: foaie de placinta romaneasca 40g, umplutura cu branza dulce de vaca 55g, decorat cu zahar pudra</p>
+      <div class="price">Alergeni: glute, lactoza, ou, dioxid de sulf</div>
+      <div class="buttons">
+         <a href="" class="buy">6 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <img src="imagini/StrudelCuDovleac.jpg" alt="">
+      <h3>Strudel cu dovleac</h3>
+      <div class="stars">
+         <span>Gramaj: 100g/uc</span>
+      </div>
+      <p>Ingrediente: foaie de placinta romaneasca 40g, umplutura cu dovleac si scortisoara 55g,decorat cu zahar pudra</p>
+      <div class="price">Alergeni: gluten</div>
+      <div class="buttons">
+         <a href="" class="buy">6 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="imagini/StrudeCuMere.jpg" alt="">
+      <h3>Strudel cu mere</h3>
+      <div class="stars">
+         <span>Gramaj: 100g/buc</span>
+      </div>
+      <p>Ingrediente: foaie de placinta romaneasca 40g, umplutura cu mere si scortisoara 55g, decorat cu zahar pudra</p>
+      <div class="price">Alergeni: gluten</div>
+      <div class="buttons">
+         <a href="" class="buy">6 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-11">
+      <i class="fas fa-times"></i>
+      <img src="imagini/StrudelCuIaurt.jpg" alt="">
+      <h3>Strudel cu iaurt</h3>
+      <div class="stars">
+         <span>Gramaj: 105g/buc</span>
+      </div>
+      <p>Ingrediente: aluat foietaj 62g, Zahar, margarina, lapte, iaurt ,soia</p>
+      <div class="price">Alergeni: gluten</div>
+      <div class="buttons">
+         <a href="" class="buy">5 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+      <img src="imagini/prazituraCuvisine.jpg" alt="">
+      <h3>Prajitura cu visine</h3>
+      <div class="stars">
+         <span>Gramaj: 100g/buc</span>
+      </div>
+      <p>Ingrediente: foaie de placinta romaneasca 40g, umplutura cu visine si scortisoara 55g, decorat cu zahar pudra</p>
+      <div class="price">Alergeni: gluten</div>
+      <div class="buttons">
+         <a href="" class="buy">6 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-13">
+      <i class="fas fa-times"></i>
+      <img src="imagini/croissantCuAlune.jpg" alt="">
+      <h3>Croissant cu cacao si alune</h3>
+      <div class="stars">
+         <span>Gramaj: 60g/buc</span>
+      </div>
+      <p>Ingrediente: faina de grau, unt fin(lapte) 18%, umplutura de alune cu cacao 16%</p>
+      <div class="price">Alergeni: gluten,lactoza, ou</div>
+      <div class="buttons">
+         <a href="" class="buy">3,5 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-14">
+      <i class="fas fa-times"></i>
+      <img src="imagini/CriossantCuUnt.jpg" alt="">
+      <h3>Croissant cu unt</h3>
+      <div class="stars">
+         <span>Gramaj: 60g/buc</span>
+      </div>
+      <p>Ingrediente: faina de grau, apa, unt fin(lapte) 18%, ou</p>
+      <div class="price">Alergeni: lactoza, ou</div>
+      <div class="buttons">
+         <a href="" class="buy">3,4 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-15">
+      <i class="fas fa-times"></i>
+      <img src="imagini/melcCuVanilie.jpg" alt="">
+      <h3>Melc cu vanilie si stafide</h3>
+      <div class="stars">
+         <span>Gramaj: 90g/buc</span>
+      </div>
+      <p>Ingrediente: faina, unt, ou, crema de vanilie, stafide</p>
+      <div class="price">Alergeni: ou, stafide</div>
+      <div class="buttons">
+         <a href="" class="buy">5,5 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-16">
+      <i class="fas fa-times"></i>
+      <img src="imagini/CrenvustiFoiteaj.jpg" alt="">
+      <h3>Crenvusti in foietaj</h3>
+      <div class="stars">
+         <span> Gramaj: 4,5 Ron</span>
+      </div>
+      <p>Ingrediente: crenvusti de pui, grau, margarina, faina, uleiuri vegetale</p>
+      <div class="price">Alergeni: gluten, grau , amidon</div>
+      <div class="buttons">
+         <a href="" class="buy">4,5 Ron</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-17">
+      <i class="fas fa-times"></i>
+      <img src="imagini/Dobrogeana.jpg" alt="">
+      <h3> Dobrogeana cu branza dulce si sarata</h3>
+      <div class="stars">
+         <span>Gramaj: 150g/buc</span>
+      </div>
+      <p>Ingrediente: faina alba de grau 500g, margarina, lapte, smantana, unt, branza 60g</p>
+      <div class="price">Alergeni: lapte , oua, branza</div>
+      <div class="buttons">
+         <a href="" class="buy">7 Ron</a>
+      </div>
+   </div>
+
+</div>
+
+<section>
+
+     <!-- DESPRE -->
+
+
+
+
+
+     <div class="heading">
+      <h1>Informatii de contact</h1>
+  </div>
+  
+  <section class="contact">
+      <div class="icons-container">
+  
+          <div class="icons">
+              <i class="fas fa-phone"></i>
+              <h3>Telefon</h3>
+              <p>0212332</p>
+              <p>0723343233</p>
+          </div>
+  
+          <div class="icons">
+              <i class="fas fa-envelope"></i>
+              <h3>Email</h3>
+              <p>Covrig@gmmail.com</p>
+          </div>
+  
+          <div class="icons">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Adresa noasta</h3>
+              <p>Bucuresti Romania<p></p>
+          </div>
+  
+      </div>
+  
+       <div class="row">
+           <form action="">
+               <h3>Contact</h3>
+               <div class="inputBox">
+               <input type="text" placeholder="Introdu numele tau" class="box">
+               <input type="text" placeholder="Introdu adresa de e-mail" class="box">
+              </div>
+              <div class="inputBox">
+                  <input type="number" placeholder="Introdu numarul de telefon" class="box">
+                  <input type="text" placeholder="Introdu subiectul" class="box">
+                 </div>
+                 <textarea placeholder=" Mesajul tau" cols="30" rows="10"></textarea>
+                 <input type="submit" value="Trimite mesaj" class="btn">
+           </form>
+           <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.3011806427!2d54.947543798608436!3d25.076381472700536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1642496355732!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+  
+  </section>
+  
+  <div class="space"></div>
+  
+  
+  
+  <section class="footer">
+      <div class="box-container">
+       
+  
+          <div class="box">
+              <h3>Urmareste-ne pe </h3>
+              <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+              <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+              <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+              <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+              <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+          </div>
+  
+          <div class="box">
+              <h3>Spune ceva</h3>
+              <p>Aboneaza-te pentru update-uri</p>
+              <form action="">
+              <input type="email" placeholder="Introdu adresa de e-mail">
+              <input type="submit" value="Trimite" class="btn">
+              </form>
+              <img decoding="async" src="img/payment.png" class="payments" alt="">
+          </div>
+      </div>
+  </section>
+  
+  <section class="credit">Creat de Iuly boss de boss 2023-2024</section>
+
+   
+</section>
+
+</body>
+</html>
